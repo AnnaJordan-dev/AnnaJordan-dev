@@ -1,0 +1,25 @@
+/* styles.css */
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Initially hide the menu off-screen */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: left 0.3s;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-menu li {
+    padding: 10px;
+}
+
+.main-content {
+    margin-left: 0; /* Adjust this to match the width of your menu */
+    transition: margin-left 0.3s;
+}
